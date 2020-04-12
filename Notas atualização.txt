@@ -12,4 +12,4 @@ v 0.0.2...........................Resolvido bug no CSS
                                   Adicionado imagem ./img/logout.png
                                   Melhorias Index.php
                                   Correções de erros e pequenas melhorias
-
+v 0.0.3...........................Adicionado favicon
