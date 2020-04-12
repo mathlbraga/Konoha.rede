@@ -6,9 +6,9 @@
 
 	<body>
 		<header>
-			<?php include("./componentes/nav.php"); ?>
+			<?php include("../componentes/navbar.php"); ?>
 		</header>
-		<nav></nav>
+		<nav id="nav1"></nav>
 		<section>
 			<h1>
 				<b>Adicionar usuário:</b>
@@ -30,13 +30,14 @@
 					<input type="text" name="usr_snome" placeholder="Ex.: Silva">
 				</p>
 				<p>
-					<b>Informe o sobre nome do usuário:</b>
+					<b>Informe o sobrenome do usuário:</b>
 					<br>
 					<input type="text" name="usr_nome" placeholder="Ex.: Silva">
 				</p>
 				<p>
 					<form>
-						Email:
+						<b>Email:</b>
+						<br>
 						<input type="email" name="email" placeholder="Ex.: bruno@konoha">
 					</form>
 				</p>
@@ -76,7 +77,7 @@
 			</form>
 		</section>
 		<footer>
-			<?php include("./componentes/footer.php"); ?>
+			<?php include("../componentes/footerbar.php"); ?>
 		</footer>
 	</body>
 </html>

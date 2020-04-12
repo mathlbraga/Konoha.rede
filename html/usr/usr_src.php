@@ -1,16 +1,14 @@
 <html>
 	<head>
 		<title>Konoha</title>
-		<style>
-		</style>
 		<link rel="stylesheet" type="text/css" href="usr.css">
 	</head>
 
 	<body>
 		<header>
-			<?php include("./componentes/nav.php"); ?>
+			<?php include("../componentes/navbar.php"); ?>
 		</header>
-		<nav></nav>
+		<nav id="nav1"></nav>
 		<section>
 			<h1>
 				<b>Informações sobre conta do usuário:</b>
@@ -28,7 +26,7 @@
 			</form>
 		</section>
 		<footer>
-			<?php include("./componentes/footer.php"); ?>
+			<?php include("../componentes/footerbar.php"); ?>
 		</footer>
 	</body>
 </html>

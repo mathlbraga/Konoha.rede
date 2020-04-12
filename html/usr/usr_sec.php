@@ -1,24 +1,14 @@
 <html>
 	<head>
 		<title>Konoha</title>
-		<style>
-			nav
-			{
-				margin: 0 auto;
-				background-image: url('../img/supera.jpeg');
-				background-repeat: no-repeat;
-				background-attachment: local;
-				background-size: 100% 100%;
-			}
-		</style>
 		<link rel="stylesheet" type="text/css" href="usr.css">
 	</head>
 
 	<body>
 		<header>
-			<?php include("../componentes/nav.php"); ?>
+			<?php include("../componentes/navbar.php"); ?>
 		</header>
-		<nav></nav>
+		<nav id="tobi"></nav>
 		<section>
 			<h1>
 				<b>Recuperar senha:</b>
@@ -52,7 +42,7 @@
 			</form>
 		</section>
 		<footer>
-			<?php include("./componentes/footer.php"); ?>
+			<?php include("../componentes/footerbar.php"); ?>
 		</footer>
 	</body>
 </html>

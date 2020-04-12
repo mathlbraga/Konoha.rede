@@ -8,7 +8,7 @@
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="../index.php">
 					<p>
 						Konoha
 						<img src="../img/konoha.png" width="25" height="25"/>
@@ -17,54 +17,61 @@
 			</div>
 			<ul class="nav navbar-nav">
 				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<a class="dropdown-toggle" data-toggle="dropdown">
 						Usuário
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-					<li><a href="../usr/usr_src.php">Pesquisar</a></li>
-					<li><a href="../usr/usr_add.php">Adicionar</a></li>
-					<li><a href="../usr/usr_edt.php">Editar</a></li>
-					<li><a href="../usr/usr_del.php">Remover</a></li>
-					<li><a href="../usr/usr_sec.php">Segurança</a></li>
+						<li><a href="../usr/usr_src.php">Pesquisar</a></li>
+						<li><a href="../usr/usr_add.php">Adicionar</a></li>
+						<li><a href="../usr/usr_edt.php">Editar</a></li>
+						<li><a href="../usr/usr_del.php">Remover</a></li>
+						<li><a href="../usr/usr_sec.php">Segurança</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<a class="dropdown-toggle" data-toggle="dropdown">
 						Grupo
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-					<li><a href="../grp/grp_src.php">Pesquisar</a></li>
-					<li><a href="../grp/grp_add.php">Criar</a></li>
-					<li><a href="../grp/grp_edt.php">Editar</a></li>
-					<li><a href="../grp/grp_del.php">Remover</a></li>
+						<li><a href="../grp/grp_src.php">Pesquisar</a></li>
+						<li><a href="../grp/grp_add.php">Criar</a></li>
+						<li><a href="../grp/grp_edt.php">Editar</a></li>
+						<li><a href="../grp/grp_del.php">Remover</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<a class="dropdown-toggle" data-toggle="dropdown">
 						Segurança
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-					<li><a href="../sec/sec_pass.php">Senha</a></li>
-					<li><a href="#">.</a></li>
-					<li><a href="#">.</a></li>
-					<li><a href="#">.</a></li>
+						<li><a href="../sec/sec_pass.php">Senha</a></li>
+						<li><a href="#">.</a></li>
+						<li><a href="#">.</a></li>
+						<li><a href="#">.</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<a class="dropdown-toggle" data-toggle="dropdown">
 						Configuração
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-					<li><a href="#">.</a></li>
-					<li><a href="#">.</a></li>
-					<li><a href="#">.</a></li>
-					<li><a href="#">.</a></li>
+						<li><a href="#">.</a></li>
+						<li><a href="#">.</a></li>
+						<li><a href="#">.</a></li>
+						<li><a href="#">.</a></li>
 					</ul>
 				</li>
+				<li>
+					<a href="#">
+						Sair
+						<img src="../img/logout.png" width="25" height="25"/>
+					</a>
+				</li>
+				
 			</ul>
 		</div>
 	</nav>
