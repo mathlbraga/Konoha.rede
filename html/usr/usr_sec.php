@@ -26,6 +26,7 @@
 					<input type="password" name="usr_pass1">
 					<br>
 					<b>Reinforme a nova senha:</b>
+					<br>
 					<input type="password" name="usr_pass2">
 				</p>
 				<p>

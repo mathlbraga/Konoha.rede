@@ -20,7 +20,7 @@
 					<br>
 					<div id="divBusca">
 						<input type="text" id="src_user" placeholder="Ex: bruno"/>
-						<img src="../img/search.png" height="16px" width="16px" id="btnsrc" alt="Buscar"/>
+						<img src="../img/search.png" height="31px" width="31px" id="btnsrc" alt="Buscar"/>
 					</div>
 				</p>
 				<p>

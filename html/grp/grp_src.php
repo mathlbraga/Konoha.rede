@@ -19,8 +19,8 @@
 					<b>Informe o nome do grupo:</b>
 					<br>
 					<div id="divBusca">
-						<input type="text" id="src_user" placeholder="Ex: escritorio"/>
-						<img src="../img/search.png" id="btnsrc" alt="Buscar"/>
+						<input type="text" id="src_grp" placeholder="Ex: escritorio"/>
+						<img src="../img/search.png" height="31px" width="31px" id="btnsrc" alt="Buscar"/>
 					</div>
 				</p>
 				<p>

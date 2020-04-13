@@ -2,7 +2,7 @@
 	<head>
 		<title>Konoha</title>
 		<link rel="stylesheet" type="text/css" href="./componentes/index.css">
-		<link rel="shortcut icon" href="./icon.png">
+		<link rel="shortcut icon" href="./img/icon.png">
 	</head>
 	
 	<body style= "margin: 0 auto;">

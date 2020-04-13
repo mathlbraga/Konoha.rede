@@ -16,23 +16,21 @@
 			</h1>
 			<form>
 				<p>
-					<b>Informe o nome do grupo:</b>
+					<b>Informe o nome de grupo:</b>
 					<br>
-					<input type="text" name="grp_nick" placeholder="Ex.: escritorio">
+					<input type="text" name="grp_nome" placeholder="Ex.: escritorio1">
 				</p>
 				<p>
-					<b>Informe o nome d :</b>
+					<b>Informe o nome do grupo :</b>
 					<br>
-					<input type="text" name="grp_nome" placeholder="Ex.: Bruno">
+					<input type="text" name="grp_nick" placeholder="Ex.: Escritorio 1">
 				</p>
 				<p>
 					<b>Diretório:</b>
 					<br>
 					&nbsp;/var/
-					<input type="text" name="grp_dir" placeholder="home/bruno/">
+					<input type="text" name="grp_dir" placeholder="">
 				</p>
-				
-				
 				<p>
 					<br>
 					<br>

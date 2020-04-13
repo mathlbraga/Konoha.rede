@@ -31,10 +31,9 @@
 					<input type="text" name="usr_snome" placeholder="Ex.: Silva">
 				</p>
 				<p>
-					<label for="phone">
-						<b>Informe o telefone do usuário:</b>
-					</label>
-					<input type="tel" name="usr_tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+					<b>Informe o telefone do usuário:</b>
+					<br>
+					<input type="tel" name="usr_tel" pattern="[0-9]{11}" placeholder="Ex.: 12345678901">
 				</p>
 				<p>
 					<form>
