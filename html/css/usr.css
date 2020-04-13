@@ -1,0 +1,66 @@
+/*usr/usr_src*/
+#divBusca
+{
+  background-color:#2F4F4F;
+  border:solid 1px;
+  border-radius:15px;
+  width:300px;
+}
+/*usr/usr_src*/
+#src_user
+{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-style:italic;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:260px;
+}
+
+/*usr/usr_sec*/
+#tobi
+{
+	line-height: 30px;
+	height: 380px;
+	width: 200px;
+	float: left;
+	padding: 5 px;
+	margin: 0 auto;
+	background-image: url('../img/supera.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-size: 100% 100%;
+}
+
+#nav1
+{
+	line-height: 30px;
+	height: 380px;
+	width: 200px;
+	float: left;
+	padding: 5px;
+}
+
+section
+{
+	width: 400px;
+	float: left;
+	padding: 10px;
+}
+
+footer
+{
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 10px;
+}
+
+body
+{
+	background-color: #EEEEEE;
+	margin: 0 auto;
+}

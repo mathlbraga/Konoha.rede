@@ -9,23 +9,31 @@
 		<header>
 			<?php include("../componentes/navbar.php"); ?>
 		</header>
-		<nav id="nav1"></nav>
+		<nav id="tobi"></nav>
 		<section>
 			<h1>
-				<b>Informações sobre conta do usuário:</b>
+				<b>Remover usuário:</b>
 			</h1>
 			<form>
 				<p>
 					<b>Informe o nome do usuário:</b>
 					<br>
-					<div id="divBusca">
-						<input type="text" id="src_user" placeholder="Ex: bruno"/>
-						<img src="../img/search.png" height="16px" width="16px" id="btnsrc" alt="Buscar"/>
-					</div>
+					<input type="text" name="usr_nome" placeholder="Ex.: bruno">
 				</p>
 				<p>
+					<b>Remover todos os arquivos:</b>
 					<br>
-					<input type="button" onclick="" value="Pesquisar">
+					Sim
+					<input type="radio" name="alt_pass" value="remArq_sim"
+						checked>
+					&nbsp;&nbsp;&nbsp;
+					Não:
+					<input type="radio" name="alt_pass" value="remArq_nao">
+				</p>
+				<br>
+				<br>
+				<p>
+					<input type="button" onclick="" value="Confirmar">
 				</p>
 			</form>
 		</section>

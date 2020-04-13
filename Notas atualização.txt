@@ -1,15 +1,25 @@
-Base..............................Arquivos básicos e teste
+Base..............................Adicionado arquivos básicos e teste
                                   Adicionado paginas ./usr/usr_add.html
                                   Adicionado paginas ./usr/usr_sec.html
                                   Adicionado paginas ./usr/usr_src.html
 v 0.0.1...........................Resolvido bug chamar pagina
                                   Correções na navbar e outros bugs
                                   Adicionado informações nas paginas ./usr/*
-v 0.0.2...........................Resolvido bug no CSS 
+                                  Conversão arquivos .html para .php
+v 0.0.2...........................Resolvido bug no CSS
                                   Correções nas páginas ./usr/*
                                   Melhorias navbar
-                                  Adicionado funcao de logout
+                                  Adicionado opcao de logout
                                   Adicionado imagem ./img/logout.png
                                   Melhorias Index.php
-                                  Correções de erros e pequenas melhorias
                                   Adicionado favicon
+                                  Correções de erros e pequenas melhorias
+v 0.0.3...........................Remoção arquivos .html desnecessários
+                                  Melhorias interface ./usr/usr_src.php
+                                  Adicionado paginas ./usr/usr_rem.php
+                                  Adicionado campo telefone em ./usr/usr_add.php
+                                  Adicionado paginas ./grp/grp_add.php
+                                  Adicionado paginas ./grp/grp_rem.php
+                                  Adicionado paginas ./grp/grp_sec.php
+                                  Adicionado paginas ./grp/grp_src.php
+                                  Correções de erros e pequenas melhorias

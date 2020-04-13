@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Konoha</title>
-		<link rel="stylesheet" type="text/css" href="../css/usr.css">
+		<link rel="stylesheet" type="text/css" href="../css/grp.css">
 		<link rel="shortcut icon" href="../img/icon.png">
 	</head>
 
@@ -12,15 +12,15 @@
 		<nav id="nav1"></nav>
 		<section>
 			<h1>
-				<b>Informações sobre conta do usuário:</b>
+				<b>Informações sobre grupos:</b>
 			</h1>
 			<form>
 				<p>
-					<b>Informe o nome do usuário:</b>
+					<b>Informe o nome do grupo:</b>
 					<br>
 					<div id="divBusca">
-						<input type="text" id="src_user" placeholder="Ex: bruno"/>
-						<img src="../img/search.png" height="16px" width="16px" id="btnsrc" alt="Buscar"/>
+						<input type="text" id="src_user" placeholder="Ex: escritorio"/>
+						<img src="../img/search.png" id="btnsrc" alt="Buscar"/>
 					</div>
 				</p>
 				<p>
@@ -29,9 +29,6 @@
 				</p>
 			</form>
 		</section>
-		<br>
-		<br>
-		<br>
 		<footer>
 			<?php include("../componentes/footerbar.php"); ?>
 		</footer>

@@ -10,6 +10,7 @@
 			<div class="navbar-header">
 				<a class="navbar-brand" href="../index.php">
 					<p>
+						<!--HOME-->
 						Konoha
 						<img src="../img/konoha.png" width="25" height="25"/>
 					</p>
@@ -22,6 +23,7 @@
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
+						<!--USUARIO-->
 						<li><a href="../usr/usr_src.php">Pesquisar</a></li>
 						<li><a href="../usr/usr_add.php">Adicionar</a></li>
 						<li><a href="../usr/usr_edt.php">Editar</a></li>
@@ -35,6 +37,7 @@
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
+						<!--GRUPO-->
 						<li><a href="../grp/grp_src.php">Pesquisar</a></li>
 						<li><a href="../grp/grp_add.php">Criar</a></li>
 						<li><a href="../grp/grp_edt.php">Editar</a></li>
@@ -47,6 +50,7 @@
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
+						<!--SEGURANCA-->
 						<li><a href="../sec/sec_pass.php">Senha</a></li>
 						<li><a href="#">.</a></li>
 						<li><a href="#">.</a></li>
@@ -59,6 +63,7 @@
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
+						<!--CONFIGURACAO-->
 						<li><a href="#">.</a></li>
 						<li><a href="#">.</a></li>
 						<li><a href="#">.</a></li>
@@ -68,7 +73,7 @@
 				<li>
 					<a href="#">
 						Sair
-						<img src="../img/logout.png" width="25" height="25"/>
+						<img src="../img/logout.png" width="25" height="25" href="#"/>
 					</a>
 				</li>
 				

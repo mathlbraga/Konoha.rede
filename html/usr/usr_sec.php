@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Konoha</title>
-		<link rel="stylesheet" type="text/css" href="usr.css">
+		<link rel="stylesheet" type="text/css" href="../css/usr.css">
 		<link rel="shortcut icon" href="../img/icon.png">
 	</head>
 
@@ -23,7 +23,10 @@
 				<p>
 					<b>Informe a nova senha:</b>
 					<br>
-					<input type="password" name="usr_pass">
+					<input type="password" name="usr_pass1">
+					<br>
+					<b>Reinforme a nova senha:</b>
+					<input type="password" name="usr_pass2">
 				</p>
 				<p>
 					<b>Solicitar alteração de senha:</b>
@@ -42,6 +45,9 @@
 				</p>
 			</form>
 		</section>
+		<br>
+		<br>
+		<br>
 		<footer>
 			<?php include("../componentes/footerbar.php"); ?>
 		</footer>

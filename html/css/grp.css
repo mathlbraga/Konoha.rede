@@ -7,20 +7,6 @@
 	padding: 5px;
 }
 
-#tobi
-{
-	line-height: 30px;
-	height: 380px;
-	width: 200px;
-	float: left;
-	padding: 5 px;
-	margin: 0 auto;
-	background-image: url('../img/supera.jpeg');
-	background-repeat: no-repeat;
-	background-attachment: local;
-	background-size: 100% 100%;
-}
-
 section
 {
 	width: 400px;

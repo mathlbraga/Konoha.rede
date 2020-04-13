@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Konoha</title>
-		<link rel="stylesheet" type="text/css" href="usr.css">
+		<link rel="stylesheet" type="text/css" href="../css/usr.css">
 		<link rel="shortcut icon" href="../img/icon.png">
 	</head>
 
@@ -26,20 +26,21 @@
 					<input type="text" name="usr_nome" placeholder="Ex.: Bruno">
 				</p>
 				<p>
-					<b>Informe o sobre nome do usuário:</b>
+					<b>Informe o sobrenome do usuário:</b>
 					<br>
 					<input type="text" name="usr_snome" placeholder="Ex.: Silva">
 				</p>
 				<p>
-					<b>Informe o sobrenome do usuário:</b>
-					<br>
-					<input type="text" name="usr_nome" placeholder="Ex.: Silva">
+					<label for="phone">
+						<b>Informe o telefone do usuário:</b>
+					</label>
+					<input type="tel" name="usr_tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
 				</p>
 				<p>
 					<form>
 						<b>Email:</b>
 						<br>
-						<input type="email" name="email" placeholder="Ex.: bruno@konoha">
+						<input type="email" name="email" placeholder="Ex.: bruno@konoha.rede">
 					</form>
 				</p>
 				<p>
@@ -65,18 +66,19 @@
 					<br>
 					&nbsp;/var/
 					<input type="text" name="usr_nome" placeholder="home/bruno/">
-				</p>
-				
-				
+				</p>	
 				<p>
 					<br>
 					<br>
 					<input type="button" onclick="" value="Criar">
-					&nbsp;&nbsp;&nbsp;
-					<input type="button" onclick="" value="Cancelar">
+					<!--&nbsp;&nbsp;&nbsp;
+					<input type="button" onclick="" value="Cancelar">-->
 				</p>
 			</form>
 		</section>
+		<br>
+		<br>
+		<br>
 		<footer>
 			<?php include("../componentes/footerbar.php"); ?>
 		</footer>
