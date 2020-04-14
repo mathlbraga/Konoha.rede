@@ -32,3 +32,6 @@ v 0.1.0...........................Remocao de arquivo .html desnecessario
 								  Remocao do arquivo ./testes/menu.html
 								  Remocao do arquivo ./testes/menu.php
 								  Adicionado funcao teste na navbar
+								  Correcoes na pagina ./usr/usr/usr_rem.php
+								  Correcoes na pagina ./usr/grp/grp_rem.php
+								  

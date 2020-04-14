@@ -46,9 +46,9 @@
 				</p>
 			</form>
 		</section>
-		<br>
-		<br>
-		<br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
 		<footer>
 			<?php include("../componentes/footerbar.php"); ?>
 		</footer>

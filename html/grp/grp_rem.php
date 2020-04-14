@@ -9,7 +9,7 @@
 		<header>
 			<?php include("../componentes/navbar.php"); ?>
 		</header>
-		<nav></nav>
+		<nav id="nav1"></nav>
 		<section>
 			<h1>
 				<b>Remover Grupo:</b>
