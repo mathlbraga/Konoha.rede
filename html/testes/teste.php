@@ -26,11 +26,23 @@
 				echo "<pre>$output</pre>";
 			?>
 			[/ls -al]
+
+			<br>
+			<br>
+			<br>
+
+			[echo]
+			<br>
+			<?php
+				$output2 = `echo a; echo b`;
+				echo "<pre>$output2</pre>";
+			?>
+			[/echo]
 			
 			<br>
 			<br>
 			<br>
-			
+
 			[abre arq.txt]
 			<br>
 			<?php
@@ -46,6 +58,7 @@
 				// Fecha arquivo aberto
 				fclose($arquivo);
 			?>
+			[/abre arq.txt]
 
 			<br>
 			<br>
