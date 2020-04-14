@@ -18,9 +18,9 @@
 			<p><b>TESTE:</b></p>
 			<br>
 			<br>
-			<br>
 
 			[ls -al]
+			<br>
 			<?php
 				$output = `ls -al`;
 				echo "<pre>$output</pre>";
@@ -31,14 +31,8 @@
 			<br>
 			<br>
 			
-			[inicia sh.sh]
-			<?php
-				$shsh = file_get_contents('../testes/sh.sh');
-				echo shell_exec($shsh);
-			?>
-			[/inicia sh.sh]
-
 			[abre arq.txt]
+			<br>
 			<?php
 				// Abre o Arquvio no Modo r (para leitura)
 				$arquivo = fopen ('arq.txt', 'r');
@@ -52,12 +46,25 @@
 				// Fecha arquivo aberto
 				fclose($arquivo);
 			?>
-			[/abre arq.txt]
-			
+
 			<br>
 			<br>
 			<br>
-			
+
+			<!--
+			[inicia sh.sh]
+			<br>
+			<?php
+				//$shsh = file_get_contents('../testes/sh.sh');
+				//echo shell_exec($shsh);
+			?>
+			[/inicia sh.sh]
+
+			<br>
+			<br>
+			<br>
+			-->
+
 		</section>
 		<footer>
 			<?php include("../componentes/footerbar.php"); ?>

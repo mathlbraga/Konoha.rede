@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Escolha uma opção:"
-echo
+echo ""
 echo "[1] Listar as portas do seu computador"
 echo "[2] Listar os arquivos do diretório atual"
 echo "[3] Sair"
