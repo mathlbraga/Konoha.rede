@@ -1,20 +1,20 @@
-Base..............................Adicionado arquivos básicos e teste
+Base..............................Adicionado arquivos basicos e de testes
                                   Adicionado paginas ./usr/usr_add.html
                                   Adicionado paginas ./usr/usr_sec.html
                                   Adicionado paginas ./usr/usr_src.html
 v 0.0.1...........................Resolvido bug chamar pagina
-                                  Correções na navbar e outros bugs
-                                  Adicionado informações nas paginas ./usr/*
-                                  Conversão arquivos .html para .php
-v 0.0.2...........................Resolvido bug no CSS
-                                  Correções nas páginas ./usr/*
+                                  Correcoes na navbar e outros bugs
+                                  Adicionado informacoes nas paginas ./usr/*
+                                  Conversao arquivos .html para .php
+v 0.0.2...........................Resolvido bugs no CSS
+                                  Correcoes nas paginas ./usr/*
                                   Melhorias navbar
                                   Adicionado opcao de logout
                                   Adicionado imagem ./img/logout.png
                                   Melhorias Index.php
                                   Adicionado favicon
                                   Correções de erros e pequenas melhorias
-v 0.0.3...........................Remoção arquivos .html desnecessários
+v 0.0.3...........................Remocoes arquivos .html desnecessarios
                                   Melhorias interface ./usr/usr_src.php
                                   Adicionado paginas ./usr/usr_rem.php
                                   Adicionado campo telefone em ./usr/usr_add.php
@@ -23,3 +23,13 @@ v 0.0.3...........................Remoção arquivos .html desnecessários
                                   Adicionado paginas ./grp/grp_sec.php
                                   Adicionado paginas ./grp/grp_src.php
                                   Correções de erros e pequenas melhorias
+v 0.0.4...........................Remocao de arquivo .html desnecessario
+                                  Resolvido bug chamar pagina ./grp/grp_rem.php
+                                  Resolvido bug chamar pagina ./usr/usr_rem.php
+                                  Resolvido bug ./componentes/navbar.php
+								  Adicionado aquivo ./testes/sh.sh
+								  Adicionado aquivo ./testes/teste.php
+								  Remocao do arquivo ./testes/menu.html
+								  Remocao do arquivo ./testes/menu.php
+								  
+                                  
