@@ -76,7 +76,16 @@
 						<img src="../img/logout.png" width="25" height="25" href="#"/>
 					</a>
 				</li>
-				
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown">
+						TESTE
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<!--TESTE-->
+						<li><a href="../testes/teste.php">Teste SH</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div>
 	</nav>

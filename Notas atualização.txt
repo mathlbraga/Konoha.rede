@@ -31,5 +31,4 @@ v 0.1.0...........................Remocao de arquivo .html desnecessario
 								  Adicionado aquivo ./testes/teste.php
 								  Remocao do arquivo ./testes/menu.html
 								  Remocao do arquivo ./testes/menu.php
-								  
-                                  
+								  Adicionado funcao teste na navbar
