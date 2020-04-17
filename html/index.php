@@ -19,7 +19,7 @@
 			?>
 			
 			<br>
-			<p><b>suário logado:</b>></p>
+			<p><b>Usuário logado:</b></p>
 			
 			<?php
 				$output = `w -s`;
