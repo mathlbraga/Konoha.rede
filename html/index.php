@@ -11,17 +11,8 @@
 		</header>
 		<nav id="nav1">
 			<br>
-			
-			<?php
-				date_default_timezone_set('America/Sao_Paulo');
-				echo date('d/m/Y \à\s H:i:s');
-			?>
-
-			<br>
 
 			<?php
-				date_default_timezone_set('America/Sao_Paulo');
-				  echo date('d/m/Y \à\s H:i:s');
 				$output = `cal`;
 				echo "<pre>$output</pre>";
 			?>
