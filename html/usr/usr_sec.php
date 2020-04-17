@@ -45,10 +45,10 @@
 					<input type="button" onclick="" value="Confirmar">
 				</p>
 			</form>
+					<br><br><br><br><br>
+			<br><br><br><br><br>
+			<br><br><br><br><br>
 		</section>
-		<br><br><br><br><br>
-		<br><br><br><br><br>
-		<br><br><br><br><br>
 		<footer>
 			<?php include("../componentes/footerbar.php"); ?>
 		</footer>

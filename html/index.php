@@ -10,9 +10,31 @@
 			<?php include("./componentes/navbar.php"); ?>
 		</header>
 		<nav id="nav1"></nav>
-		<p>.....</p>
+		<section>
+			<p>
+				Sistema:
+			</p>
+			<br>
+			<?php
+				$output = `uname -s -r`;
+				echo "<pre>$output</pre>";
+			?>
+			<br>
+			<br>
+			<p>
+				Usuário logado:
+			</p>
+			<br>
+			<?php
+				$output = `w`;
+				echo "<pre>$output</pre>";
+			?>
+			<br>
+			<br>
+		</section>
 		<footer>
 			<?php include("./componentes/footerbar.php"); ?>
 		</footer>
 	</body>
 </html>
+
