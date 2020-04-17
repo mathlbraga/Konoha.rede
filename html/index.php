@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<title>Konoha</title>
-		<link rel="stylesheet" type="text/css" href="./componentes/index.css">
+		<link rel="stylesheet" type="text/css" href="./css/index.css">
 		<link rel="shortcut icon" href="./img/icon.png">
 	</head>
 	
@@ -11,24 +11,21 @@
 		</header>
 		<nav id="nav1"></nav>
 		<section>
-			<p>
-				Sistema:
-			</p>
-			<br>
+			<p><b>Sistema:</b></p>
+
 			<?php
 				$output = `uname -s -r`;
 				echo "<pre>$output</pre>";
 			?>
+			
 			<br>
-			<br>
-			<p>
-				Usuário logado:
-			</p>
-			<br>
+			<p><b>suário logado:</b>></p>
+			
 			<?php
-				$output = `w`;
+				$output = `w -s`;
 				echo "<pre>$output</pre>";
 			?>
+			
 			<br>
 			<br>
 		</section>

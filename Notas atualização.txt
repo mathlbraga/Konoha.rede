@@ -35,3 +35,5 @@ v 0.1.0...........................Remocao de arquivo .html desnecessario
 								  Correcoes na pagina ./usr/usr/usr_rem.php
 								  Correcoes na pagina ./usr/grp/grp_rem.php
 v 0.1.1...........................Adicionado informacoes na pagina ./index.php
+								  Correcao em localizacao de arquivos
+								  Ajustes no arquivo ./css/index.css
