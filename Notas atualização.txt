@@ -18,10 +18,10 @@ v 0.0.3...........................Remocoes arquivos .html desnecessarios
                                   Melhorias interface ./usr/usr_src.php
                                   Adicionado paginas ./usr/usr_rem.php
                                   Adicionado campo telefone em ./usr/usr_add.php
-                                  Adicionado paginas ./grp/grp_add.php
-                                  Adicionado paginas ./grp/grp_rem.php
-                                  Adicionado paginas ./grp/grp_sec.php
-                                  Adicionado paginas ./grp/grp_src.php
+                                  Adicionado pagina ./grp/grp_add.php
+                                  Adicionado pagina ./grp/grp_rem.php
+                                  Adicionado pagina ./grp/grp_sec.php
+                                  Adicionado pagina ./grp/grp_src.php
                                   Correções de erros e pequenas melhorias
 v 0.1.0...........................Remocao de arquivo .html desnecessario
                                   Resolvido bug chamar pagina ./grp/grp_rem.php
@@ -37,3 +37,7 @@ v 0.1.0...........................Remocao de arquivo .html desnecessario
 v 0.1.1...........................Adicionado informacoes na pagina ./index.php
 								  Correcao em localizacao de arquivos
 								  Ajustes no arquivo ./css/index.css
+v 0.1.2...........................Adicionado funcao de atualizacao automatico do repositorio git no servidor
+								  Melhorias em ./testes/teste.php
+								  Adicionado pagina ./testes/atualizacao.php
+								  

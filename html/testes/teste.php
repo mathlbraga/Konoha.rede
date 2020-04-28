@@ -9,7 +9,12 @@
 		<header>
 			<?php include("../componentes/navbar.php"); ?>
 		</header>
-		<nav id="nav1"></nav>
+		<nav id="nav1">
+			<form action=./atualizacao.php method=get >
+    			<input type=submit value='Atualizar'/>
+			</form>
+		</form>
+		</nav>
 		<section>
 			<h1>
 				<b>TESTE:</b>
@@ -77,6 +82,7 @@
 			<br>
 			<br>
 			-->
+
 
 		</section>
 		<footer>
