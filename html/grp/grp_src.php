@@ -20,12 +20,9 @@
 					<br>
 					<div id="divBusca">
 						<input type="text" id="src_grp" placeholder="Ex: escritorio"/>
-						<img src="../img/search.png" height="31px" width="31px" id="btnsrc" alt="Buscar"/>
+						<!--<img src="../img/search.png" height="31px" width="31px" id="btnsrc" alt="Buscar"/>-->
+						<input type="button" onclick="" value="Pesquisar">
 					</div>
-				</p>
-				<p>
-					<br>
-					<input type="button" onclick="" value="Pesquisar">
 				</p>
 			</form>
 		</section>
