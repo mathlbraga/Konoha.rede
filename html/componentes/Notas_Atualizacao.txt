@@ -27,9 +27,9 @@ v 0.1.0...........................Remocao de arquivo .html desnecessario
                                   Resolvido bug chamar pagina ./grp/grp_rem.php
                                   Resolvido bug chamar pagina ./usr/usr_rem.php
                                   Resolvido bug ./componentes/navbar.php
-				  Adicionado aquivo ./testes/sh.sh
-				  Adicionado aquivo ./testes/teste.php
-				  Remocao do arquivo ./testes/menu.html
+                                  Adicionado aquivo ./testes/sh.sh
+                                  Adicionado aquivo ./testes/teste.php
+                                  Remocao do arquivo ./testes/menu.html
                                   Remocao do arquivo ./testes/menu.php
                                   Adicionado funcao teste na navbar
                                   Correcoes na pagina ./usr/usr/usr_rem.php
