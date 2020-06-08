@@ -27,19 +27,19 @@ v 0.1.0...........................Remocao de arquivo .html desnecessario
                                   Resolvido bug chamar pagina ./grp/grp_rem.php
                                   Resolvido bug chamar pagina ./usr/usr_rem.php
                                   Resolvido bug ./componentes/navbar.php
-								                  Adicionado aquivo ./testes/sh.sh
-								                  Adicionado aquivo ./testes/teste.php
-								                  Remocao do arquivo ./testes/menu.html
-								                  Remocao do arquivo ./testes/menu.php
-								                  Adicionado funcao teste na navbar
-								                  Correcoes na pagina ./usr/usr/usr_rem.php
-								                  Correcoes na pagina ./usr/grp/grp_rem.php
+				  Adicionado aquivo ./testes/sh.sh
+				  Adicionado aquivo ./testes/teste.php
+				  Remocao do arquivo ./testes/menu.html
+                                  Remocao do arquivo ./testes/menu.php
+                                  Adicionado funcao teste na navbar
+                                  Correcoes na pagina ./usr/usr/usr_rem.php
+                                  Correcoes na pagina ./usr/grp/grp_rem.php
 v 0.1.1...........................Adicionado informacoes na pagina ./index.php
-								                  Correcao em localizacao de arquivos
-								                  Ajustes no arquivo ./css/index.css
+                                  Correcao em localizacao de arquivos
+                                  Ajustes no arquivo ./css/index.css
 v 0.1.2...........................Adicionado funcao de atualizacao automatico do repositorio git no servidor
-								                  Melhorias em ./testes/teste.php
-								                  Adicionado pagina ./testes/atualizacao.php
+                                  Melhorias em ./testes/teste.php
+                                  Adicionado pagina ./testes/atualizacao.php
 v 0.1.3...........................Melhorias Index.php
                                   Correcoes na navbar e outros bugs 
 								  
