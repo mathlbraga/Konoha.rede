@@ -19,8 +19,10 @@
 			<h1>
 				<b>TESTE:</b>
 			</h1>
+			<h2>
+				<b>[ÁREA DE TESTES PARA NOVAS FUNCIONALIDADES]</b>
+			</h2>
 			<br>
-			<p><b>TESTE:</b></p>
 			<br>
 			<br>
 
