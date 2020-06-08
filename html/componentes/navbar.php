@@ -64,17 +64,11 @@
 					</a>
 					<ul class="dropdown-menu">
 						<!--CONFIGURACAO-->
-						<li><a href="#">.</a></li>
+						<li><a href="../componentes/Notas_Atualizacao.txt">Notas de atualizações</a></li>
 						<li><a href="#">.</a></li>
 						<li><a href="#">.</a></li>
 						<li><a href="#">.</a></li>
 					</ul>
-				</li>
-				<li>
-					<a href="#">
-						Sair
-						<img src="../img/logout.png" width="25" height="25" href="#"/>
-					</a>
 				</li>
 				<li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown">
@@ -85,6 +79,12 @@
 						<!--TESTE-->
 						<li><a href="../testes/teste.php">Teste SH</a></li>
 					</ul>
+				</li>
+				<li>
+					<a href="#">
+						Sair
+						<img src="../img/logout.png" width="25" height="25" href="#"/>
+					</a>
 				</li>
 			</ul>
 		</div>
