@@ -17,7 +17,13 @@
 				echo "<pre>$output</pre>";
 			?>
 
-			<br>
+			<br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br>
+			
 		</nav>
 		<section>
 			<p><b>Sistema:</b></p>
@@ -41,7 +47,7 @@
 			<br><br><br><br><br><br><br><br><br><br>
 			<br><br><br><br><br><br><br><br><br><br>
 			<br><br><br><br><br><br><br><br><br><br>
-			
+
 		</section>
 		<footer>
 			<?php include("./componentes/footerbar.php"); ?>
