@@ -35,8 +35,13 @@
 				echo "<pre>$output</pre>";
 			?>
 			
-			<br>
-			<br>
+			<!--- 50 -->
+			<br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br>
+			
 		</section>
 		<footer>
 			<?php include("./componentes/footerbar.php"); ?>
