@@ -13,7 +13,7 @@ v 0.0.2...........................Resolvido bugs no CSS
                                   Adicionado imagem ./img/logout.png
                                   Melhorias Index.php
                                   Adicionado favicon
-                                  Correções de erros e pequenas melhorias
+                                  Correcoes de erros e pequenas melhorias
 v 0.0.3...........................Remocoes arquivos .html desnecessarios
                                   Melhorias interface ./usr/usr_src.php
                                   Adicionado paginas ./usr/usr_rem.php
