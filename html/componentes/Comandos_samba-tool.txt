@@ -1,0 +1,106 @@
+user
+	- add ou create
+		- sudo samba-tool user add <username> <senha> [opções]
+			--given-name=<nome>
+			--surname=<sobrenome>
+			--must-change-at-next-login (força alteração de senha)
+			--initials=<iniciais>
+			--profile-path=<pasta_do_usuario>
+			--home-directory=<pasta_home>
+			--job-title=<cargo>
+			--departament=<ex_RH>
+			--company=<empresa>
+			--description=<descrição_usuario>
+			--mail_address=<email>
+			--telephone-number=<numero>
+			--userou='OU=<orgUnit>' (comando 'move' usa essa info)
+	- delete
+		- sudo samba-tool user delete <username>
+	- disable
+		- sudo samba-tool user disable <username>
+	- edit
+		- sudo samba-tool user edit <username> [opções]
+			--editor=<nano>
+	- enable
+		- sudo samba-tool user enable <username>
+	- getpassword ?
+	- list
+		- sudo samba-tool user list
+	- move
+		- sudo samba-tool user move <username> OU=<orgunit>
+	- password (troca senha do adm do samba-tool)
+		- sudo samba-tool user password [opções]
+			--newpassword=<senha2>
+	- setexpiry (expira usuário após certo tempo ou opção de não expirar)
+		- sudo samba-tool user setexpiry <username> [opções]
+			--days=<10>
+			--noexpiry
+	- setpassword (troca senha de usuários)
+		- sudo samba-tool user setpassword <username> [opções]
+			--newpassword=<novasenha>
+			--must-change-at-next-login (força alteração de senha)
+	- show
+		- sudo samba-tool user show <username> [opções]
+			--attributes=<memberOf> (fazer lista de todos os atributos)
+	- syncpasswords ?
+
+group
+	- add
+		- sudo samba-tool group add <groupname> [opções]
+			--group-scope=<Domain> | <Global> | <Universal>
+			--group-type=<Security> | <Distribution>
+			--description=<descricao_grupo>
+			--mail-address=<email_grupo>
+			--groupou='OU=<orgUnit>' (comando 'move' usa essa info)
+	- addmembers
+		- sudo samba-tool group addmembers <groupname> <user1,user2,group1>
+	- delete
+		- sudo samba-tool group delete <groupname>
+	- list
+		- sudo samba-tool group list
+	- listmembers
+		- sudo samba-tool group listmembers <groupname>
+	- move
+		- sudo samba-tool group move <groupname> OU=<orgunit>
+	- removemembers
+		- sudo samba-tool group removemembers <groupname> <user1,user2,group1>
+	- show
+		- sudo samba-tool user show <groupname> [opções]
+			--attributes=<member> (fazer lista de todos os atributos)
+
+domain
+	- backup
+		- sudo samba-tool domain backup <online> | <rename> | <restore>
+	- exportkeytab ? 
+	- functionalprep ?
+	- info
+		- sudo samba-tool domain info <ip_address>
+	- join ?
+	- level ?
+	- passwordsettings
+		- sudo samba-tool domain passwordsettings <pso> | <set> | <show>
+	- provision ?
+	- schemaupgrade ?
+	- tombstones ?
+	- trust ?
+
+computer
+dbcheck
+delegation
+dns
+drs ?
+dsacl ?
+forest ?
+fsmo ?
+gpo ?
+ldapcmp ?
+ntacl ?
+ou
+processes
+rodc
+schema
+sites
+spn ?
+testparm
+time
+visualize

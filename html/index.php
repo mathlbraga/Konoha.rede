@@ -47,7 +47,7 @@
 			<br><br><br><br><br><br><br><br><br><br>
 			<br><br><br><br><br><br><br><br><br><br>
 			<br><br><br><br><br><br><br><br><br><br>
-
+			<!--- 50 -->
 		</section>
 		<footer>
 			<?php include("./componentes/footerbar.php"); ?>

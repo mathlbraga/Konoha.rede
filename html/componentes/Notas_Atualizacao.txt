@@ -45,3 +45,4 @@ v 0.1.3...........................Melhorias Index.php
                                   Adicionado notas de atualizacoes
                                   Correcoes na navbar e outros bugs
                                   Melhorias nos arquivos .css
+v 0.1.4...........................Adicionado arquivo Comandos_samba-tool.txt
