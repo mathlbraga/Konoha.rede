@@ -70,6 +70,38 @@
 			<br>
 			<br>
 			<br>
+			
+			public function Delete($param)
+			{
+				$grupo = $param['grupo']; // get the parameter $key
+				$comando = "sudo " . $this->samba_tool . " group delete '{$grupo}'";        
+				$result = shell_exec($comando);
+
+				if ($result)
+				{
+					new TMessage('info', 'Grupo excluido com sucesso!');
+					$this->onReload(); // reload the listing
+				}
+			}
+
+			public function addUser($param)
+			{
+				$user = $param['user']; // get the parameter $key
+				$comando = "sudo " . $this->samba_tool . " user add teste2 '{$user}'";        
+				$result = shell_exec($comando);
+
+				if ($result)
+				{
+					new TMessage('info', 'Grupo excluido com sucesso!');
+					$this->onReload(); // reload the listing
+				}
+			}
+
+			$user = `userTeste2`;
+			$comando = "sudo " . $this->samba_tool . " user add '{$user}'";        
+			$result = shell_exec($comando);
+
+
 
 			<!--
 			[inicia sh.sh]
