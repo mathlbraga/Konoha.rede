@@ -83,13 +83,11 @@
 						func = func.concat(document.getElementById('usr_nick').value);
 						func = func.concat(" ";
 						func = func.concat(document.getElementById('usr_pass1').value);
-						func = func.concat(" --home-directory ";
-						func = func.concat(document.getElementById('usr_dir').value);
 						func = func.concat(" --given-name ";
 						func = func.concat(document.getElementById('usr_nome').value);
 						func = func.concat(" --surname ";
 						func = func.concat(document.getElementById('usr_snome').value);
-						func = func.concat(" --home-directory	";
+						func = func.concat(" --home-directory ";
 						func = func.concat(document.getElementById('usr_dir').value);
 						func = func.concat(" --mail-address ";
 						func = func.concat(document.getElementById('usr_email').value);
