@@ -11,7 +11,6 @@
 		</header>
 		<nav id="nav1"></nav>
 		<section>
-			var func="";
 			<h1>
 				<b>Adicionar usuário:</b>
 			</h1>
@@ -76,9 +75,10 @@
 			<script type="text/javascript">
 				if(document.getElementById('usr_pass1').value == document.getElementById('usr_pass2').value)
 				{
+					var func="";
+					alert("entrou na funcao");
 					function AddUserFunction()
 					{
-						alert("entrou na funcao");
 						func = "sudo samba-tool user add ";
 						func = func.concat(document.getElementById('usr_nick').value);
 						func = func.concat(" ";
