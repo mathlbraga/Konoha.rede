@@ -14,7 +14,7 @@ v 0.0.2...........................Resolvido bugs no CSS
                                   Melhorias Index.php
                                   Adicionado favicon
                                   Correcoes de erros e pequenas melhorias
-v 0.0.3...........................Remocoes arquivos .html desnecessarios
+v 0.0.3...........................Remocoes de arquivos .html desnecessarios
                                   Melhorias interface ./usr/usr_src.php
                                   Adicionado paginas ./usr/usr_rem.php
                                   Adicionado campo telefone em ./usr/usr_add.php
@@ -47,3 +47,5 @@ v 0.1.3...........................Melhorias Index.php
                                   Melhorias nos arquivos .css
 v 0.1.4...........................Adicionado arquivo Comandos_samba-tool.txt
                                   Implementecoes de testes
+v 0.2.0...........................Melhorias em usr_add.php
+                                  Adicionado arquivo ./teste/teste_js.html

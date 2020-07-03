@@ -1,0 +1,36 @@
+<html>
+	<body>
+		<script type="text/javascript">
+			var teste = "123";
+			//alert(teste);
+		</script>
+		
+		<form action="../fnc/fncUsr_add.php" method="post">
+			<fieldset>
+				<p>
+					<b>Informe o nome de usuário:</b>
+					<br>
+					<input type="text" id="usr_nick" placeholder="Ex.: bruno_brs">
+				</p>
+				<p>
+					<br>
+					<br>
+					<input type="button" onclick="funcao();" value="Criar">
+				</p>
+			</fieldset>
+		</form>
+
+		<script type="text/javascript">
+			function funcao()
+			{
+				alert ("123");
+				var func = "";
+				func = "sudo samba-tool user add ";
+				func = func.concat(document.getElementById('usr_nick').value);
+				func = func.concat(" Teste");
+				alert(func);
+			}
+			
+		</script>
+	</body>
+</html>

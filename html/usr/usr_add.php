@@ -11,6 +11,7 @@
 		</header>
 		<nav id="nav1"></nav>
 		<section>
+			var func="";
 			<h1>
 				<b>Adicionar usuário:</b>
 			</h1>
@@ -67,10 +68,42 @@
 					<p>
 						<br>
 						<br>
-						<input type="button" onclick="" value="Criar">
+						<input type="button" onclick="AddUserFunction();" value="Criar">
 					</p>
 				</fieldset>
 			</form>
+
+			<script type="text/javascript">
+				if(document.getElementById('usr_pass1').value == document.getElementById('usr_pass2').value)
+				{
+					function AddUserFunction()
+					{
+						func = "sudo samba-tool user add ";
+						func = func.concat(document.getElementById('usr_nick').value);
+						func = func.concat(" ";
+						func = func.concat(document.getElementById('usr_pass1').value);
+						func = func.concat(" --home-directory ";
+						func = func.concat(document.getElementById('usr_dir').value);
+						func = func.concat(" --given-name ";
+						func = func.concat(document.getElementById('usr_nome').value);
+						func = func.concat(" --surname ";
+						func = func.concat(document.getElementById('usr_snome').value);
+						func = func.concat(" --home-directory	";
+						func = func.concat(document.getElementById('usr_dir').value);
+						func = func.concat(" --mail-address ";
+						func = func.concat(document.getElementById('usr_email').value);
+						func = func.concat(" --telephone-number ";
+						func = func.concat(document.getElementById('usr_tel').value);
+						func = func.concat(" --force-badname ");
+						
+						<?php echo "<pre>$func</pre>"; ?>
+					}
+				}
+				else
+				{
+					alert("Verifique se as senhas correspondem!");
+				}
+			</script>
 		</section>
 		<br>
 		<br>

@@ -9,7 +9,7 @@
 
 	if ($_POST['usr_pass1'] == $_POST['usr_pass2'])
 	{
-		$func = "samba-tool user add ";
+		$func = "sudo samba-tool user add ";
 		$func .= $_POST['usr_nick'];
 		$func .= " ";
 		$func .= $_POST['usr_pass1'];
