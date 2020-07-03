@@ -68,16 +68,15 @@
 						<br>
 						<br>
 						<input type="button" onclick="AddUserFunction();" value="Criar">
-					</p>
-				</fieldset>
+					</p>Que drogaa
 			</form>
 
 			<script type="text/javascript">
-				if(document.getElementById('usr_pass1').value == document.getElementById('usr_pass2').value)
+				function AddUserFunction()
 				{
-					var func="";
 					alert("entrou na funcao");
-					function AddUserFunction()
+					var func="";
+					if(document.getElementById('usr_pass1').value == document.getElementById('usr_pass2').value)
 					{
 						func = "sudo samba-tool user add ";
 						func = func.concat(document.getElementById('usr_nick').value);
@@ -97,10 +96,10 @@
 						alert(func);
 						<?php echo "<pre>$func</pre>"; ?>
 					}
-				}
-				else
-				{
-					alert("Verifique se as senhas correspondem!");
+					else
+					{
+						alert("Verifique se as senhas correspondem!");
+					}
 				}
 			</script>
 		</section>
