@@ -78,6 +78,7 @@
 				{
 					function AddUserFunction()
 					{
+						alert("entrou na funcao");
 						func = "sudo samba-tool user add ";
 						func = func.concat(document.getElementById('usr_nick').value);
 						func = func.concat(" ";
@@ -95,7 +96,7 @@
 						func = func.concat(" --telephone-number ";
 						func = func.concat(document.getElementById('usr_tel').value);
 						func = func.concat(" --force-badname ");
-						
+						alert(func);
 						<?php echo "<pre>$func</pre>"; ?>
 					}
 				}
