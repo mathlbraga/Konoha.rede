@@ -1,4 +1,6 @@
 <?php
+// se fizer isso, coloca em variáveis
+// tipo assim: $nome = $_POST['usr_nome]
 	$_POST['usr_nome'];
 	$_POST['usr_snome'];
 	$_POST['usr_tel'];
