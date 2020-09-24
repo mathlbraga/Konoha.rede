@@ -6,11 +6,14 @@
 // acho que pode tirar daqui
 if (isset($_POST['usr_nick'])) {
 		var_dump($_POST['usr_nick']);
-		$func = "sudo samba-tool user add ";
+		$f = "`sudo samba-tool user add {$_POST['usr_nick']} {$_POST['usr_pass1']} --home-directory {$_POST['usr_dir']} --given-name {$_POST['usr_nome']} --surname {$_POST['usr_snome']} --mail-address {$_POST['usr_email']} --telephone-number {$_POST['usr_tel']} --force-badname`";
+		echo "<pre>$f</pre>";
+
+		$func = `sudo samba-tool user add `;
 		$func = $func . $_POST['usr_nick'];
-		$func = $func . " ";
+		$func = $func . ` `;
 		$func = $func . $_POST['usr_pass1'];
-		$func = $func . " --home-directory ";
+		$func = $func . ` --home-directory `;
 		$func = $func . $_POST['usr_dir'];
 		$func = $func . " --given-name ";
 		$func = $func . $_POST['usr_nome'];
@@ -21,7 +24,7 @@ if (isset($_POST['usr_nick'])) {
 		$func = $func . " --telephone-number ";
 		$func = $func . $_POST['usr_tel'];
 		$func = $func . " --force-badname";
-		echo "<pre>$func</pre>";
+	//	echo "<pre>$func</pre>";
 }
 ?>
 
@@ -41,7 +44,7 @@ if (isset($_POST['usr_nick'])) {
 		<h1>
 			<b>Adicionar usuário:</b>
 		</h1>
-		<form name="formUser" action="../fnc/fncUsr_add.php" method="POST">
+		<form name="formUser" action="" method="POST">
 			<p>
 				<b>Informe o nome de usuário:</b>
 				<br>
